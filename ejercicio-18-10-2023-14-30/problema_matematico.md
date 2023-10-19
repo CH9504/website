@@ -4,12 +4,12 @@
 Julio César Cerón Hernández (CH14018)
 Kevin Hernan Hercules Orellana (HO15000)
 
-**Ejercicio matemático**
+**Ejercicio matemático
 ** Sea $u:\Omega \cup \partial \Omega \to \mathbb{R}$ una función que es de clase $C^{2}$ en $\Omega$. Supongamos que $p \in \Omega$ es un punto de $\Omega$ y que la bola cerrada $B_{\rho}=B_{\rho}(p)$ de radio $\rho$ centrada en $p$ está contenida en $\Omega$ para $0 < \rho \leq R$. Definimos $I(\rho)$ mediante la fórmula.
 $$I(\rho)= \dfrac{1}{\rho} \int_{\partial B_{\rho}} u ~ds$$
-Demuestre que $\lim\limits_{\rho \to 0} I(\rho)=2\pi u(p).$}**
+Demuestre que $\lim\limits_{\rho \to 0} I(\rho)=2\pi u(p).$}
 
-**Solución**
+**Solución
 Para este ejercicio ocuparemos el siguiente resultado:
 $\textbf{Teorema 1.}$ Supongamos que $f_{n} \to f$ uniformemente en un intervalo $[a,b]$ y que cada función $f_{n}$ es continua en $[a,b]$, definamos una sucesión $\{ g_{n} \}$ mediante
 $$g_{n}= \int_{a}^{x} f_{n}(t) ~ dt \qquad \text{si $x \in [a,b]$,}$$
@@ -31,11 +31,11 @@ $$x-h= \rho \cos(t) \Rightarrow x(t)=h+\rho \cos(t)$$
 $$y-k= \rho \sen(t) \Rightarrow y(t)= k+ \rho \sen(t)$$
 
 con lo cual tenemos que una parametrización de $\partial B_{\rho}$ es
-$$\gamma(t)=(h+\rho \cos(t), k+ \rho \sen(t)), \quad 0 \leq t \leq 2\pi$$
+$$\gamma(t)=(h+\rho \cos(t), k+ \rho \sin(t)), \quad 0 \leq t \leq 2\pi$$
 Además
-$$\gamma^{\prime}(t)=(- \rho \sen(t), \rho \cos(t)) $$
+$$\gamma^{\prime}(t)=(- \rho \sin(t), \rho \cos(t)) $$
 
-$$\Rightarrow ||\gamma^{\prime}(t)|| = \sqrt{(-\rho \sen(t))^{2}+(\rho \cos(t))^{2}} = \rho \sqrt{\sen^{2}(t)+\cos^{2}(t)}= \rho$$
+$$\Rightarrow ||\gamma^{\prime}(t)|| = \sqrt{(-\rho \sin(t))^{2}+(\rho \cos(t))^{2}} = \rho \sqrt{\sen^{2}(t)+\cos^{2}(t)}= \rho$$
 
 Entonces tenemos
 
@@ -51,7 +51,7 @@ $\begin{align*}
     &= \lim_{\rho \to 0} \dfrac{\rho}{\rho} \int_{0}^{2\pi} u(\gamma(t)) ~ dt \hspace{4cm} \text{(sustituyendo $\int_{\partial B_{\rho}} u ~ ds$) }\\
     &= \lim_{\rho \to 0} \int_{0}^{2\pi} u(\gamma(t)) ~ dt\\
     &=  \int_{0}^{2\pi} \lim_{\rho \to 0} u(\gamma(t)) ~ dt\\
-    &= \int_{0}^{2\pi} \lim_{\rho \to 0} u(h+\rho \cos(t), k+ \rho \sen(t)) ~ dt\\
+    &= \int_{0}^{2\pi} \lim_{\rho \to 0} u(h+\rho \cos(t), k+ \rho \sin(t)) ~ dt\\
     &= \int_{0}^{2\pi} u(h,k) ~ dt \hspace{5cm} \text{ (ya que $u$ es de clase $C^{2}$)}\\
     &= \int_{0}^{2\pi} u(p) ~ dt\\
     &= u(p) \int_{0}^{2\pi} ~ dt= 2\pi u(p).
