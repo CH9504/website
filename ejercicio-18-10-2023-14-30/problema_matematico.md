@@ -10,7 +10,7 @@ $$I(\rho)= \dfrac{1}{\rho} \int_{\partial B_{\rho}} u ~ds$$
 Demuestre que $\lim\limits_{\rho \to 0} I(\rho)=2\pi u(p).$}
 
 **Solución
-\{$g_{n}$\}
+\{ $g_{n}$ \}
 
 
 Para este ejercicio ocuparemos el siguiente resultado:
