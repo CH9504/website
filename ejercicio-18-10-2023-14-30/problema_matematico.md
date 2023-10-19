@@ -49,11 +49,11 @@ $$\begin{align*}
 Con lo cual
 $$\begin{align*}
     \lim_{\rho \to 0} I(\rho)&= \lim_{\rho \to 0} \dfrac{1}{\rho} \int_{\partial B_{\rho}} u ~ ds\\
-    &= \lim_{\rho \to 0} \dfrac{\rho}{\rho} \int_{0}^{2\pi} u(\gamma(t)) ~ dt \hspace{4cm} \text{(sustituyendo $\int_{\partial B_{\rho}} u ~ ds$) }\\
+    &= \lim_{\rho \to 0} \dfrac{\rho}{\rho} \int_{0}^{2\pi} u(\gamma(t)) ~ dt \hspace{4cm} \\
     &= \lim_{\rho \to 0} \int_{0}^{2\pi} u(\gamma(t)) ~ dt\\
     &=  \int_{0}^{2\pi} \lim_{\rho \to 0} u(\gamma(t)) ~ dt\\
     &= \int_{0}^{2\pi} \lim_{\rho \to 0} u(h+\rho \cos(t), k+ \rho \sin(t)) ~ dt\\
-    &= \int_{0}^{2\pi} u(h,k) ~ dt \hspace{5cm} \text{ (ya que $u$ es de clase $C^{2}$)}\\
+    &= \int_{0}^{2\pi} u(h,k) ~ dt \hspace{5cm}\\
     &= \int_{0}^{2\pi} u(p) ~ dt\\
     &= u(p) \int_{0}^{2\pi} ~ dt= 2\pi u(p).
 \end{align*}$$
