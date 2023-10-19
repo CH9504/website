@@ -39,9 +39,11 @@ $$\Rightarrow ||\gamma^{\prime}(t)|| = \sqrt{(-\rho \sin(t))^{2}+(\rho \cos(t))^
 
 Entonces tenemos
 
-$$\int_{\partial B_{\rho}} u ~ ds = \int_{0}^{2\pi} u(\gamma(t)) ||\gamma^{\prime}(t)|| ~ dt$$
-                                $$= \int_{0}^{2\pi} u(\gamma(t)) \rho ~ dt$$
-                                $$= \rho \int_{0}^{2\pi} u(\gamma(t)) ~ dt.$$
+$$\begin{align*}
+  \int_{\partial B_{\rho}} u ~ ds &= \int_{0}^{2\pi} u(\gamma(t)) ||\gamma^{\prime}(t)|| ~ dt\\
+  &= \int_{0}^{2\pi} u(\gamma(t)) \rho ~ dt\\
+  &= \rho \int_{0}^{2\pi} u(\gamma(t)) ~ dt.
+\end{align*}$$
 
 
 Con lo cual
