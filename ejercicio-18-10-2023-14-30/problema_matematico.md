@@ -11,6 +11,7 @@ Demuestre que $\lim\limits_{\rho \to 0} I(\rho)=2\pi u(p).$}
 
 **Solución
 $\left{ hola \right}$
+
 Para este ejercicio ocuparemos el siguiente resultado:
 $\textbf{Teorema 1.}$ Supongamos que $f_{n} \to f$ uniformemente en un intervalo $[a,b]$ y que cada función $f_{n}$ es continua en $[a,b]$, definamos una sucesión $\left{ g_{n} \right} $ mediante
 $$g_{n}= \int_{a}^{x} f_{n}(t) ~ dt \qquad \text{si $x \in [a,b]$,}$$
