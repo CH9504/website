@@ -45,6 +45,7 @@ Entonces tenemos
     &= \rho \int_{0}^{2\pi} u(\gamma(t)) ~ dt.
 \end{equation*}
 
+
 Con lo cual
 $\begin{align*}
     \lim_{\rho \to 0} I(\rho)&= \lim_{\rho \to 0} \dfrac{1}{\rho} \int_{\partial B_{\rho}} u ~ ds\\
