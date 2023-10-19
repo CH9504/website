@@ -55,7 +55,7 @@ $$\begin{align*}
   &= \lim_{\rho \to 0} \int_{0}^{2\pi} u(\gamma(t)) ~ dt\\
   &=  \int_{0}^{2\pi} \lim_{\rho \to 0} u(\gamma(t)) ~ dt\\
   &= \int_{0}^{2\pi} \lim_{\rho \to 0} u(h+\rho \cos(t), k+ \rho \sin(t)) ~ dt\\
-  &= \int_{0}^{2\pi} u(h,k) ~ dt  \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \text{ (ya que $u$ es de clase $C^{2}$)}\\\\
+  &= \int_{0}^{2\pi} u(h,k) ~ dt  \qquad \qquad \qquad \qquad \qquad \qquad \qquad \text{ (ya que $u$ es de clase $C^{2}$)}\\\\
   &= \int_{0}^{2\pi} u(p) ~ dt\\
   &= u(p) \int_{0}^{2\pi} ~ dt= 2\pi u(p).
 \end{align*}$$
