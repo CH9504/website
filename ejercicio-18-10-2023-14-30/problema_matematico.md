@@ -10,7 +10,7 @@ $$I(\rho)= \dfrac{1}{\rho} \int_{\partial B_{\rho}} u ~ds$$
 Demuestre que $\lim\limits_{\rho \to 0} I(\rho)=2\pi u(p).$}
 
 **Solución
-$\left{ hola \right}$
+$\left \{ hola \right \}$
 
 Para este ejercicio ocuparemos el siguiente resultado:
 $\textbf{Teorema 1.}$ Supongamos que $f_{n} \to f$ uniformemente en un intervalo $[a,b]$ y que cada función $f_{n}$ es continua en $[a,b]$, definamos una sucesión $\left{ g_{n} \right} $ mediante
